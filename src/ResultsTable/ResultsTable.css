@@ -1,0 +1,8 @@
+.resultsTable {
+  width: 100%;
+  height: 180px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px 20px;
+  background-color: #ffffff;
+}
