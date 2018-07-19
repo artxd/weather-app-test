@@ -1,0 +1,53 @@
+.column {
+	min-height: 100%;
+	font-size: 13px;
+	padding: 20px 0;
+	color: rgba(0,0,0,0.75);
+}
+.date {
+	font-size: 16px;
+	font-weight: bold;
+	color: #6f97d3;
+}
+.flex-row {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 10px;
+}
+.smaller-top-margin {
+	margin-top: 2px;
+}
+.align-bottom {
+	align-items: flex-end;
+}
+.align-center {
+	align-items: center;
+}
+.weather-icon {
+	width: 40px;
+}
+.arrow-icon {
+	height: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.left-side-item {
+	position: relative;
+	margin-right: 10px;
+	width: 40px;
+	text-align: left;
+}
+.rotating-arrow-container {
+	height: 16px;
+}
+
+@media only screen and (max-width: 480px)  {
+	.date {
+		text-align: center;
+	}
+	.column {
+		width: 100%;
+		padding: 10px 0;
+	}
+}

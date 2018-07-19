@@ -15,7 +15,7 @@ class ResultsTable extends Component {
       <div className="resultsTable">
         {
           this.props.results.map((result) => 
-            <h3 key={result.woeid}>{result.title}, {result.parent.title}</h3>
+            <h3 onClick={() => { this.props.pickLocation(result) }} key={result.woeid}>{result.title}, {result.parent.title}</h3>
           )
         }
       </div>

@@ -1,4 +1,45 @@
-.textField {
-    width: 100%;
-    padding: 10px 20px;
+.searchbox {
+	width: 100%;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.textfield {
+	width: 100%;
+	font-size: 18px;
+	color: rgba(0,0,0,0.75);
+	font-weight: bold;
+	height: 60px;
+	padding: 20px 40px 20px 70px;
+}
+.textfield::placeholder {
+	color: rgba(0,0,0,0.3);
+}
+.textfield:focus {
+	outline: none !important;
+    border: 1px solid #FDC543;
+    box-shadow: 0 0 10px #FDC543;
+}
+.pin-icon {
+	position: absolute;
+	left: 20px;
+	width: 40px;
+}
+.close-icon {
+	position: absolute;
+	right: 20px;
+	width: 10px;
+	cursor: pointer;
+}
+.tag {
+	position: absolute;
+	font-size: 10px;
+	color: rgba(0,0,0,0.3);
+	top: 4px;
+    left: 71px;
+    opacity: 1;
+    transition: all 0.30s ease-in-out;
+}
+.hidden {
+    opacity: 0;
 }

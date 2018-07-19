@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
 }
 @keyframes lds-eclipse {
   0% {
@@ -46,7 +45,7 @@
   top: 20px;
   left: 20px;
   border-radius: 50%;
-  box-shadow: 0 8px 0 0 #4d5459;
+  box-shadow: 0 8px 0 0 #ffee8d;
   -webkit-transform-origin: 80px 84px;
   transform-origin: 80px 84px;
 }
